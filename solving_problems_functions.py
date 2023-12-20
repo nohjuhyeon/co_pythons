@@ -61,7 +61,7 @@ if __name__ == "__main__":
     # 출제 문제
     list_problems = [
             'Python에서 변수를 선언하는 방법은? (점수: 10점)',
-            '1) var name 2) name = value 3) set name 4) name == value',             # '1) var name 2) name = value 3) set name 4) name == value' 리스트 추가
+            '1) var name 2) name = value 3) set name 4) name == value',             # '1) var name 2) name = value 3) set name 4) name == value'를 리스트에 추가
             'Python에서 리스트(List)의 특징은 무엇인가요? (점수: 15점)',
             '1) 순서가 있고 변경 가능하다, 2) 중복된 값을 가질 수 없다, 3) 원소를 추가하거나 삭제할 수 없다, 4) 정렬된 상태로 유지된다', 
             'Python에서 조건문을 작성하는 방법은? (점수: 10점)', 
@@ -70,7 +70,7 @@ if __name__ == "__main__":
             '1) class, 2) def, 3) import, 4) return'
     ]       # hint
     # 문제 당 정답
-    list_corrects = [4,2,3,2 ]    # hint                                    # list_corrects에 list 추가 
+    list_corrects = [3,4,1,2 ]    # hint                                    # list_corrects에 정답안 추가 
 
 
     problems_main(list_problems)
